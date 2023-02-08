@@ -44,12 +44,9 @@ const Home = (props) => {
 
 
   const previousPage = () => {
-    const totalPage = result/6;
-    if(data.length ===0){
-      alert('not available')
-    }else{
+    
       setPage(page - 1)
-    }
+  
     // fetchData();
   };
 
